@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>与我联系</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/logo.ico" type="image/x-icon"/>
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/contact.js"></script>
+</head>
+<body>
+<div class="contact">
+    <nav class="nav">
+        <div class="nav-img">
+            <img src="images/logo.ico">
+        </div>
+        <ul class="nav-ul-1">
+            <li><a href="index.html">首页</a></li>
+            <li><a href="introduction.html">个人简介</a>
+                <ul class="nav-ul-2">
+                    <li><a href="introduction.html#self-introduction">自我介绍</a></li>
+                    <li><a href="introduction.html#habit">兴趣爱好</a></li>
+                </ul>
+            </li>
+            <li><a href="study.html">学习经历</a>
+                <ul class="nav-ul-2">
+                    <li><a href="study.html#class">课程经历</a></li>
+                    <li><a href="study.html#project">项目经历</a></li>
+                </ul>
+            </li>
+            <li><a href="resume.html">我的简历</a></li>
+            <li><a href="contact.html" style="color: orange">与我联系</a></li>
+        </ul>
+    </nav>
+    <div class="part">
+        <form class="part1" action="" method="post">
+            <div class="part1-1">
+                <input class="it-item" type="text" placeholder="您的名字" name="yourname" required="required" style="margin-right: 1em">
+                <input class="it-item" type="email" placeholder="您的邮箱" name="mail" required="required" style="margin-right: -2em">
+            </div>
+            <textarea class="it-item" rows="10" placeholder="您想说的话" name="msg" required="required"></textarea>
+            <div class="part1-2"><button class="it-item btn" type="submit">发送消息</button></div>
+        </form>
+        <div class="part2">
+            <div class="part2-1"><img src="images/address.png"><br>中南财经政法大学中区5栋<br>地址</div>
+            <div class="part2-1"><img src="images/mail.png"><br>15115189098@163.com<br>邮箱</div>
+            <div class="part2-1"><img src="images/phone.png"><br>15115189098<br>手机</div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

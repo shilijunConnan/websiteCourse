@@ -1,0 +1,85 @@
+.part{
+    padding:8em 10em;
+}
+.part-table{
+    width: 100%;
+}
+table{
+    border-spacing: 0;
+}
+td{
+    height: 100px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.part-td-middle{
+    text-align: center;
+    position: relative;
+}
+.dot{
+    width:10px;
+    height:10px;
+    background-color:white;
+    border-radius:50%;
+    border: 3px solid orange;
+    position: absolute;
+    left: 42%;
+    top:42%;
+}
+.line{
+    border-left:2px solid white;
+    width: 1px;
+    height: 100px;
+    margin: 0 auto;
+}
+.part-td-left{
+    position: relative;
+    height: 90%;
+    color: black;
+    background-color: white;
+    text-align: right;
+    padding: 1em;
+}
+.part-td-left>.trangle{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    right: -10px;
+    transform: rotate(45deg);
+    top:40%;
+}
+.part-td-right{
+    position: relative;
+    height: 90%;
+    color: black;
+    background-color: white;
+    text-align: left;
+    padding: 1em;
+}
+.part-td-right>.trangle{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    left: -10px;
+    transform: rotate(45deg);
+    top:40%;
+}
+.part-td-right-text{
+    text-align: left;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+.part-td-left-text{
+    text-align: right;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+h1{
+    font-size: 2em;
+    font-weight: normal;
+    margin-top: 2em;
+    text-shadow: 2px 2px 5px orange;
+}

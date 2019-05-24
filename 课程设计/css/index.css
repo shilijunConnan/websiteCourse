@@ -1,0 +1,99 @@
+.part1{
+    display: flex;
+    justify-content: space-between;
+}
+.part1-1{
+    font-family:"hakuyoxingshu7000","Microsoft YaHei";
+    padding: 5em 1em 4em 2em;
+    font-size: 3em;
+    font-weight: bold;
+    line-height: 2em;
+    letter-spacing: 2px;
+    text-shadow: 5px 5px 5px orange;
+}
+.part1-2{
+    font-family:"STXingkai","Microsoft YaHei";
+    font-size: 1.5em;
+    padding: 210px 50px;
+    letter-spacing: 2px;
+    line-height: 2em;
+    text-shadow: 1px 1px 1px orange;
+}
+.className{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-family:"STXingkai","Microsoft YaHei";
+    text-shadow: none;
+    font-weight: normal;
+    letter-spacing: 4px;
+    -webkit-animation: twinkling 1s infinite ease-in-out;
+}
+.className:hover{
+    cursor: pointer;
+    -webkit-animation: none;
+}
+.animated{
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both
+}
+@-webkit-keyframes twinkling{
+    0%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0.5;
+    }
+}
+@keyframes twinkling{
+    0%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0.5;
+    }
+}
+.className>img{
+    display: block;
+
+}
+.part2{
+    padding: 9em 9em 0 9em;
+}
+.part2-1{
+    color: black;
+    text-align: center;
+}
+.part2-1-all{
+    background-color: #ffffff4a;
+    display: inline-block;
+    width: 30%;
+    text-align: center;
+    line-height: 3em;
+    padding: 2em 1em;
+    color: white;
+    height: 400px;
+    vertical-align: top;
+    transition: all 0.7s
+}
+.part2-1-all:hover{
+    box-shadow: 0 0 10px white;
+    background-color: white;
+    color: black;
+    transform: scale(1.1);
+    -ms-transform:scale(1.1);     /* IE 9 */
+    -moz-transform:scale(1.1);     /* Firefox */
+    -webkit-transform:scale(1.1); /* Safari 和 Chrome */
+    -o-transform:scale(1.1);
+}
+.part2-1-all>a{
+    color: orange;
+    text-decoration: none;
+}
